@@ -1,0 +1,12 @@
+Source: ros-kinetic-leo-teleop
+Section: misc
+Priority: optional
+Maintainer: Błażej Sowa <blazej@turtlerover.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/leo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-leo-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-joy, ros-kinetic-teleop-twist-joy, ros-kinetic-teleop-twist-keyboard
+Description: Teleop package for Leo Rover
