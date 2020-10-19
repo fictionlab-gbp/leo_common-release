@@ -1,0 +1,12 @@
+Source: ros-kinetic-leo
+Section: misc
+Priority: optional
+Maintainer: Błażej Sowa <blazej@turtlerover.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/leo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-leo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-leo-description, ros-kinetic-leo-teleop
+Description: Metapackage of software for Leo Rover common to the robot and ROS desktop
