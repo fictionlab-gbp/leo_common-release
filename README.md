@@ -1,3 +1,29 @@
+## leo_common (kinetic) - 1.1.0-2
+
+The packages in the `leo_common` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic leo_common` on `Tue, 20 Oct 2020 22:12:32 -0000`
+
+These packages were released:
+- `leo`
+- `leo_description`
+- `leo_teleop`
+
+Version of package(s) in repository `leo_common`:
+
+- upstream repository: https://github.com/LeoRover/leo_common.git
+- release repository: https://github.com/fictionlab-gbp/leo_common-release.git
+- rosdistro version: `1.1.0-1`
+- old version: `1.1.0-1`
+- new version: `1.1.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## leo_common (kinetic) - 1.1.0-1
 
 The packages in the `leo_common` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic leo_common` on `Mon, 19 Oct 2020 12:00:00 -0000`
