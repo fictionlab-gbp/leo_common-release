@@ -6,11 +6,15 @@ find_package(catkin REQUIRED)
 
 catkin_package()
 
-install(DIRECTORY launch/
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch)
+install(
+  DIRECTORY
+    launch
+    models
+    urdf
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
 
-install(DIRECTORY models/
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/models)
-
-install(DIRECTORY urdf/
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/urdf)
+if(CATKIN_ENABLE_TESTING)
+  find_package(rostest REQUIRED)
+  add_rostest(test/xacro.test)
+endif()
