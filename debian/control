@@ -1,0 +1,12 @@
+Source: ros-melodic-leo-teleop
+Section: misc
+Priority: optional
+Maintainer: Błażej Sowa <blazej@turtlerover.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/leo
+Standards-Version: 3.9.2
+
+Package: ros-melodic-leo-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-joy, ros-melodic-teleop-twist-joy, ros-melodic-teleop-twist-keyboard
+Description: Scripts and launch files for Leo Rover teleoperation
