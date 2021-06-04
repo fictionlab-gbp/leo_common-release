@@ -2,6 +2,10 @@
 Changelog for package leo
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.2 (2021-06-04)
+------------------
+* Update author and maintainer info
+
 1.2.1 (2020-12-18)
 ------------------
 
