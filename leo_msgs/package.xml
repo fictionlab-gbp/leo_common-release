@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>leo</name>
+  <name>leo_msgs</name>
   <version>2.0.0</version>
   <description>
-    Metapackage of software for Leo Rover common to the robot and ROS desktop
+    Message and Service definitions for Leo Rover
   </description>
 
   <maintainer email="support@fictionlab.pl">Fictionlab</maintainer>
@@ -17,11 +17,13 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>leo_description</exec_depend>
-  <exec_depend>leo_msgs</exec_depend>
-  <exec_depend>leo_teleop</exec_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <depend>std_msgs</depend>
 
   <export>
-    <metapackage />
+    <architecture_independent/>
   </export>
+
 </package>

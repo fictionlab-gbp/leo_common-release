@@ -2,6 +2,9 @@
 Changelog for package leo_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.0 (2021-12-02)
+------------------
+
 1.2.2 (2021-06-04)
 ------------------
 * Fix swapped FR and RR wheels
