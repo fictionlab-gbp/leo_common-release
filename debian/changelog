@@ -1,0 +1,17 @@
+ros-noetic-leo-msgs (2.0.1-1buster) buster; urgency=high
+
+
+
+ -- Fictionlab <support@fictionlab.pl>  Tue, 28 Dec 2021 00:00:00 -0000
+
+ros-noetic-leo-msgs (2.0.0-1buster) buster; urgency=high
+
+  * Add comments to the Imu and WheelOdom message definitions
+  * Add pwm_duty_cycle field to WheelStates
+  * Add WheelOdom and WheelStates messages
+  * Add temperature to Imu message
+  * Initial leo_msgs package
+
+ -- Fictionlab <support@fictionlab.pl>  Thu, 02 Dec 2021 00:00:00 -0000
+
+
