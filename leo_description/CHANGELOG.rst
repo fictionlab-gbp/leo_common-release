@@ -2,6 +2,12 @@
 Changelog for package leo_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.0 (2022-01-31)
+------------------
+* Add simulated imu sensor
+* Increase wheel friction
+* Update ODE properties for links
+
 2.0.1 (2021-12-28)
 ------------------
 * Add imu_frame link and imu_translation parameter
