@@ -1,0 +1,31 @@
+ros-noetic-leo-msgs (2.2.0-1focal) focal; urgency=high
+
+  * Add service definition for setting IMU calibration (#2 <https://github.com/LeoRover/leo_common/issues/2>)
+  * Fix description of wheel states units
+  * Contributors: Aleksander Szymański, Błażej Sowa
+
+ -- Fictionlab <support@fictionlab.pl>  Wed, 24 Aug 2022 00:00:00 -0000
+
+ros-noetic-leo-msgs (2.1.0-1focal) focal; urgency=high
+
+  * Fix catkin_lint errors
+
+ -- Fictionlab <support@fictionlab.pl>  Mon, 31 Jan 2022 00:00:00 -0000
+
+ros-noetic-leo-msgs (2.0.1-1focal) focal; urgency=high
+
+
+
+ -- Fictionlab <support@fictionlab.pl>  Tue, 28 Dec 2021 00:00:00 -0000
+
+ros-noetic-leo-msgs (2.0.0-1focal) focal; urgency=high
+
+  * Add comments to the Imu and WheelOdom message definitions
+  * Add pwm_duty_cycle field to WheelStates
+  * Add WheelOdom and WheelStates messages
+  * Add temperature to Imu message
+  * Initial leo_msgs package
+
+ -- Fictionlab <support@fictionlab.pl>  Thu, 02 Dec 2021 00:00:00 -0000
+
+
