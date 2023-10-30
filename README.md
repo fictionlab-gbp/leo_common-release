@@ -1,3 +1,30 @@
+## leo_common (noetic) - 2.3.0-1
+
+The packages in the `leo_common` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic leo_common` on `Mon, 30 Oct 2023 15:18:54 -0000`
+
+These packages were released:
+- `leo`
+- `leo_description`
+- `leo_msgs`
+- `leo_teleop`
+
+Version of package(s) in repository `leo_common`:
+
+- upstream repository: https://github.com/LeoRover/leo_common.git
+- release repository: https://github.com/fictionlab-gbp/leo_common-release.git
+- rosdistro version: `2.2.0-1`
+- old version: `2.2.0-1`
+- new version: `2.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## leo_common (noetic) - 2.2.0-1
 
 The packages in the `leo_common` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic leo_common` on `Wed, 24 Aug 2022 16:22:32 -0000`
